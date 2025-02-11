@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const Header = () => {
   return (
     <section className="container mx-auto flex flex-col sm:flex-row items-start sm:items-end py-8 px-6 sm:px-8 bg-white">
@@ -12,10 +14,7 @@ const Header = () => {
 
         {/* Botão alinhado corretamente */}
         <div className="mt-4 sm:absolute sm:bottom-0 sm:left-full sm:ml-8">
-          <button className="border border-primary text-primary px-4 py-2 flex items-center text-base sm:text-lg hover:bg-gray-100">
-            <span>Conhecer</span>
-            <span className="ml-2">↘</span> {/* Ícone de seta */}
-          </button>
+          <Button text="Conhecer" icon="↘" onClick={() => alert("clique")} />
         </div>
       </div>
     </section>
