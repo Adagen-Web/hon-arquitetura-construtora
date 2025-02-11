@@ -1,12 +1,13 @@
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import logoArqConst from "../../public/logo-arq-const.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-10 px-6 sm:px-14 font-publicSans">
+    <footer className="bg-black text-white py-16 px-6 sm:px-14 font-publicSans">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left space-y-8 sm:space-y-0">
 
         {/* Esquerda - Contato e Logo */}
-        <div className="flex flex-col items-center sm:items-start space-y-4">
+        <div className="flex flex-col mt-4 items-center sm:items-start space-y-4">
           <div>
             <p className="text-lg">(51) 98273-6101</p>
             <p className="text-lg">hon.arquitetos@gmail.com</p>
@@ -14,9 +15,13 @@ const Footer = () => {
 
           {/* Centro - Logo */}
           <div className="mt-4 sm:mt-8 text-center sm:text-left">
-            <p className="text-sm tracking-wide">SOMOS</p>
-            <h2 className="text-3xl font-bold">HON</h2>
-            <p className="text-sm tracking-wide">ARQUITETURA CONSTRUTORA</p>
+            <a href="/">
+              <img
+                src={logoArqConst}
+                alt="HON Arquitetura Construtora"
+                className="w-64 sm:w-72 mx-auto sm:mx-0"
+              />
+            </a>
           </div>
         </div>
 
