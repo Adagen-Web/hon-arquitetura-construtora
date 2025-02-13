@@ -9,7 +9,7 @@ import TeamSection from "../components/TeamSection";
 
 const AboutPage = () => {
   return (
-    <div className="w-full mx-auto">
+    <div className="">
       <AboutHero image={aboutImage} />
       <Divider className="mt-4 mb-8" />
       <AboutDescription />
