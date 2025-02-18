@@ -1,3 +1,8 @@
+import CasaC10Image from "../assets/CASA-C10/webp/03.webp";
+import CasaC10Image1 from "../assets/CASA-C10/webp/01.webp";
+import CasaC10Image2 from "../assets/CASA-C10/webp/02.webp";
+import CasaC10Image3 from "../assets/CASA-C10/webp/04.webp";
+
 const projectsData = [
   {
     id: 1,
@@ -6,12 +11,13 @@ const projectsData = [
     year: 2023,
     size: 211,
     location: "Torres - RS",
-    image: "/images/casa-c10/main.jpg", // Imagem principal
-    secondaryImage: "/images/casa-c10/secondary.jpg", // Imagem lateral
+    image: CasaC10Image, // Imagem principal
+    secondaryImage: CasaC10Image1, // Imagem lateral
     gallery: [
-      "/images/casa-c10/1.jpg",
-      "/images/casa-c10/2.jpg",
-      "/images/casa-c10/3.jpg"
+      CasaC10Image,
+      CasaC10Image1,
+      CasaC10Image2,
+      CasaC10Image3
     ]
   },
   {

@@ -1,12 +1,13 @@
 import PortfolioHeader from "../components/PortfolioHeader";
 import ProjectCard from "../components/ProjectCard";
+import CasaC10Image from "../assets/CASA-C10/webp/03.webp";
 
 const projectsData = [
   {
     id: 1,
     name: "Casa C10",
     slug: "casa-c10",
-    image: "https://images.unsplash.com/photo-1496692052106-d37cb66ab80c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZyZWV8ZW58MHx8MHx8fDA%3D",
+    image: CasaC10Image,
   },
   {
     id: 2,
