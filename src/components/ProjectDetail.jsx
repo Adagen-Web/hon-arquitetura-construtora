@@ -56,7 +56,7 @@ const ProjectDetail = () => {
           {prevProject ? (
             <Link
               to={`/portfolio/${prevProject.slug}`}
-              className="text-lg font-semibold text-black hover:underline"
+              className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105"
             >
               ← {prevProject.name}
             </Link>
@@ -65,7 +65,7 @@ const ProjectDetail = () => {
           {nextProject ? (
             <Link
               to={`/portfolio/${nextProject.slug}`}
-              className="text-lg font-semibold text-black hover:underline"
+              className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105"
             >
               {nextProject.name} →
             </Link>
