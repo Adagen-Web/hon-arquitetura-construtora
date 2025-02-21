@@ -16,17 +16,17 @@ function Layout() {
   return (
     <>
       <Nav />
-      {location.pathname === "/" && <Header />}
+      {location.pathname === "/arquitetura/" && <Header />}
 
       <Routes>
-        <Route path="/" element={<h1 className="text-center mt-10">Portfolio aqui</h1>} />
-        <Route path="/sobre" element={<AboutPage />} />
-        <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/portfolio/:slug" element={<ProjectDetail />} />
-        <Route path="/contato" element={<ContactPage />} />
+        <Route path="/arquitetura/" element={<h1 className="text-center mt-10">Portfolio aqui</h1>} />
+        <Route path="/arquitetura/sobre" element={<AboutPage />} />
+        <Route path="/arquitetura/portfolio" element={<PortfolioPage />} />
+        <Route path="/arquitetura/portfolio/:slug" element={<ProjectDetail />} />
+        <Route path="/arquitetura/contato" element={<ContactPage />} />
       </Routes>
-      {location.pathname === "/" && <ContactSection />}
-      {location.pathname === "/contato" && <MapSection />}
+      {location.pathname === "/arquitetura/" && <ContactSection />}
+      {location.pathname === "/arquitetura/contato" && <MapSection />}
       <Footer />
       <WhatsAppButton />
     </>

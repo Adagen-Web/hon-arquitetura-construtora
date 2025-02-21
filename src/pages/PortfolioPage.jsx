@@ -1,6 +1,6 @@
 import PortfolioHeader from "../components/PortfolioHeader";
 import ProjectCard from "../components/ProjectCard";
-import CasaC10Image from "../assets/CASA-C10/webp/03.webp";
+import CasaC10Image from "../assets/casa-c10-03.webp";
 
 const projectsData = [
   {

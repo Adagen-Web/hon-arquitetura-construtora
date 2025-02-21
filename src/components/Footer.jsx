@@ -8,14 +8,14 @@ const Footer = () => {
 
         {/* Esquerda - Contato e Logo */}
         <div className="flex flex-col mt-4 items-center sm:items-start space-y-4">
-          <div>
+          {/* <div>
             <p className="text-lg">(51) 98273-6101</p>
             <p className="text-lg">hon.arquitetos@gmail.com</p>
-          </div>
+          </div> */}
 
           {/* Centro - Logo */}
-          <div className="mt-4 sm:mt-8 text-center sm:text-left">
-            <a href="/">
+          <div className="sm:mt-8 text-center sm:text-left">
+            <a href="/arquitetura/">
               <img
                 src={logoArqConst}
                 alt="HON Arquitetura Construtora"
@@ -34,7 +34,6 @@ const Footer = () => {
 
           {/* Redes Sociais */}
           <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
-            <p className="text-lg">NOSSAS REDES:</p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
                 <FaFacebookF />
@@ -52,7 +51,7 @@ const Footer = () => {
 
       {/* Botão de voltar ao topo */}
       <div className="flex justify-center mt-8">
-        <a href="/" className="w-12 h-12 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
+        <a href="/arquitetura/" className="w-12 h-12 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
           ↑
         </a>
       </div>

@@ -5,7 +5,6 @@ import AboutDescription from "../components/AboutDescription";
 import MissionVision from "../components/MissionVision";
 import AboutSection from "../components/AboutSection";
 import CommitmentSection from "../components/CommitmentSection";
-import TeamSection from "../components/TeamSection";
 
 const AboutPage = () => {
   return (
@@ -16,7 +15,7 @@ const AboutPage = () => {
       <MissionVision />
       <AboutSection />
       <CommitmentSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
     </div>
   );
 };

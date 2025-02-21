@@ -1,7 +1,7 @@
-import CasaC10Image from "../assets/CASA-C10/webp/03.webp";
-import CasaC10Image1 from "../assets/CASA-C10/webp/01.webp";
-import CasaC10Image2 from "../assets/CASA-C10/webp/02.webp";
-import CasaC10Image3 from "../assets/CASA-C10/webp/04.webp";
+import CasaC10Image from "../assets/casa-c10-03.webp";
+import CasaC10Image1 from "../assets/casa-c10-01.webp";
+import CasaC10Image2 from "../assets/casa-c10-02.webp";
+import CasaC10Image3 from "../assets/casa-c10-04.webp";
 
 const projectsData = [
   {

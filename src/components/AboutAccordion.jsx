@@ -7,13 +7,34 @@ const valuesData = [
     content:
       "A capacidade de criar soluções únicas e inovadoras que se destaquem no mercado e reflitam a identidade dos clientes.",
   },
-  { title: "Qualidade" },
-  { title: "Sustentabilidade" },
-  { title: "Personalização" },
-  { title: "Experiência do Cliente" },
-  { title: "Criatividade" },
-  { title: "Colaboração" },
-  { title: "Atemporalidade" },
+  {
+    title: "Qualidade",
+    content: "Compromisso com a excelência em todos os aspectos do projeto, desde o design até a execução, garantindo durabilidade e estética."
+  },
+  {
+    title: "Sustentabilidade",
+    content: "Dedicação a práticas que respeitam o meio ambiente, utilizando materiais e técnicas que minimizam o impacto ecológico e promovem a eficiência energética."
+  },
+  {
+    title: "Personalização",
+    content: "A habilidade de adaptar cada projeto às necessidades, desejos e estilo de vida dos clientes, criando espaços que realmente ressoem com sua essência."
+  },
+  {
+    title: "Experiência do Cliente",
+    content: "Foco em proporcionar uma experiência positiva ao cliente, desde o primeiro contato até a entrega do projeto, mantendo uma comunicação clara e transparente."
+  },
+  {
+    title: "Criatividade",
+    content: "Estímulo à inovação e à exploração de novas ideias, buscando soluções que desafiam o convencional e oferecem um design diferenciado."
+  },
+  {
+    title: "Colaboração",
+    content: "Valorização do trabalho em equipe, tanto internamente quanto com clientes e parceiros, reconhecendo que as melhores soluções surgem da troca de ideias e experiências."
+  },
+  {
+    title: "Atemporalidade",
+    content: "Criação de projetos que não são apenas modernos, mas que também resistem ao teste do tempo, mantendo sua relevância e beleza ao longo dos anos."
+  },
 ];
 
 const AboutAccordion = () => {
@@ -33,7 +54,7 @@ const AboutAccordion = () => {
           <div key={index} className="border-b-2 border-gray-400">
             <button
               onClick={() => toggleAccordion(index)}
-              className="w-full flex justify-between items-center py-5 text-lg font-semibold text-black"
+              className="w-full flex justify-between items-center py-5 text-lg font-semibold text-[#313131]"
             >
               {item.title}
               {openIndex === index ? (
@@ -43,7 +64,7 @@ const AboutAccordion = () => {
               )}
             </button>
             {openIndex === index && item.content && (
-              <p className="text-gray-600 text-base px-2 pb-4">{item.content}</p>
+              <p className="text-[#313131] text-base px-2 pb-4">{item.content}</p>
             )}
           </div>
         ))}

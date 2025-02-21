@@ -23,14 +23,14 @@ const ProjectDetail = () => {
         {/* Informações do Projeto */}
         <div className="items-center grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
           <div className="ml-20">
-            <h1 className="text-4xl font-bold text-black">{project.name}</h1>
-            <p className="text-lg text-gray-700 mt-4">
+            <h1 className="text-4xl font-bold text-[#313131]">{project.name}</h1>
+            <p className="text-lg text-[#313131] mt-4">
               <strong>Ano:</strong> {project.year}
             </p>
-            <p className="text-lg text-gray-700 mt-2">
+            <p className="text-lg text-[#313131] mt-2">
               <strong>Tamanho:</strong> {project.size}m²
             </p>
-            <p className="text-lg text-gray-700 mt-2">
+            <p className="text-lg text-[#313131] mt-2">
               <strong>Localização:</strong> {project.location}
             </p>
           </div>
@@ -55,7 +55,7 @@ const ProjectDetail = () => {
         <div className="flex justify-between my-16 mx-16">
           {prevProject ? (
             <Link
-              to={`/portfolio/${prevProject.slug}`}
+              to={`/arquitetura/portfolio/${prevProject.slug}`}
               className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105"
             >
               ← {prevProject.name}
@@ -64,7 +64,7 @@ const ProjectDetail = () => {
 
           {nextProject ? (
             <Link
-              to={`/portfolio/${nextProject.slug}`}
+              to={`/arquitetura/portfolio/${nextProject.slug}`}
               className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105"
             >
               {nextProject.name} →

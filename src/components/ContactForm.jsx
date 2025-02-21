@@ -8,18 +8,18 @@ const ContactForm = () => {
           <input
             type="text"
             placeholder="Nome"
-            className="border border-[#000000] p-3 w-full sm:w-1/2"
+            className="border border-[#000000] text-[#313131] p-3 w-full sm:w-1/2"
           />
           <input
             type="email"
             placeholder="Email"
-            className="border border-[#000000] p-3 w-full sm:w-1/2"
+            className="border border-[#000000] text-[#313131] p-3 w-full sm:w-1/2"
           />
         </div>
 
         <textarea
           placeholder="Mensagem"
-          className="border border-[#000000] p-3 h-32 w-full"
+          className="border border-[#000000] p-3 h-32 w-full text-[#313131]"
         />
 
         <Button

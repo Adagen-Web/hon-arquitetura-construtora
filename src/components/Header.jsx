@@ -1,3 +1,4 @@
+import { FiArrowDownRight } from "react-icons/fi";
 import Button from "./Button";
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
 
         {/* Botão alinhado corretamente */}
         <div className="mt-4 sm:absolute sm:bottom-0 sm:left-full sm:ml-8">
-          <Button text="Conhecer" icon="↘" onClick={() => alert("clique")} />
+          <Button text="Conhecer" icon={<FiArrowDownRight className="text-[#313131] text-2xl transition-transform duration-300 transform" />} onClick={() => alert("clique")} />
         </div>
       </div>
     </section>
