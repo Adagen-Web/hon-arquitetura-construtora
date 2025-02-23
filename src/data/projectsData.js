@@ -25,6 +25,18 @@ import CasaJ10Image4 from "../assets/casa-j10-04.webp";
 import CasaJ10Image5 from "../assets/casa-j10-05.webp";
 import CasaJ10Image6 from "../assets/casa-j10-06.webp";
 
+import CasaL46Image from "../assets/casa-l46.webp";
+import CasaL46Image1 from "../assets/casa-l46-01.webp";
+import CasaL46Image2 from "../assets/casa-l46-02.webp";
+import CasaL46Image3 from "../assets/casa-l46-03.webp";
+import CasaL46Image4 from "../assets/casa-l46-04.webp";
+
+import CasaOceanImage from "../assets/casa-ocean.webp";
+import CasaOceanImage1 from "../assets/casa-ocean-01.webp";
+import CasaOceanImage2 from "../assets/casa-ocean-02.webp";
+import CasaOceanImage3 from "../assets/casa-ocean-03.webp";
+import CasaOceanImage4 from "../assets/casa-ocean-04.webp";
+
 const projectsData = [
   {
     id: 1,
@@ -92,6 +104,38 @@ const projectsData = [
       CasaJ10Image5,
       CasaJ10Image6,
       CasaJ10Image
+    ]
+  },
+  {
+    id: 5,
+    slug: "casa-l46",
+    name: "Casa L46",
+    year: 2023,
+    size: 258.26,
+    location: "Torres - RS",
+    image: CasaL46Image,
+    secondaryImage: CasaL46Image1,
+    gallery: [
+      CasaL46Image1,
+      CasaL46Image2,
+      CasaL46Image3,
+      CasaL46Image4
+    ]
+  },
+  {
+    id: 6,
+    slug: "casa-ocean",
+    name: "Casa Ocean",
+    year: 2023,
+    size: 430,
+    location: "Torres - RS",
+    image: CasaOceanImage,
+    secondaryImage: CasaOceanImage1,
+    gallery: [
+      CasaOceanImage1,
+      CasaOceanImage2,
+      CasaOceanImage3,
+      CasaOceanImage4,
     ]
   },
 ];
