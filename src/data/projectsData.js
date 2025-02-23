@@ -37,6 +37,13 @@ import CasaOceanImage2 from "../assets/casa-ocean-02.webp";
 import CasaOceanImage3 from "../assets/casa-ocean-03.webp";
 import CasaOceanImage4 from "../assets/casa-ocean-04.webp";
 
+import CasaToigoImage from "../assets/casa-toigo.webp";
+import CasaToigoImage1 from "../assets/casa-toigo-01.webp";
+import CasaToigoImage2 from "../assets/casa-toigo-02.webp";
+import CasaToigoImage3 from "../assets/casa-toigo-03.webp";
+import CasaToigoImage4 from "../assets/casa-toigo-04.webp";
+import CasaToigoImage5 from "../assets/casa-toigo-05.webp";
+
 const projectsData = [
   {
     id: 1,
@@ -136,6 +143,22 @@ const projectsData = [
       CasaOceanImage2,
       CasaOceanImage3,
       CasaOceanImage4,
+    ]
+  },
+  {
+    id: 7,
+    slug: "casa-toigo",
+    name: "Casa Toigo",
+    year: 2020,
+    size: 337.17,
+    location: "Torres - RS",
+    image: CasaToigoImage,
+    secondaryImage: CasaToigoImage1,
+    gallery: [
+      CasaToigoImage2,
+      CasaToigoImage3,
+      CasaToigoImage4,
+      CasaToigoImage5,
     ]
   },
 ];
