@@ -1,7 +1,10 @@
 import { FiArrowDownRight } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="container mx-auto mt-8 flex flex-col sm:flex-row items-start sm:items-end py-8 px-10 sm:px-8 bg-white">
       <div className="flex flex-col relative sm:ml-[-20px] max-w-[90%] sm:max-w-[750px]">
@@ -15,7 +18,10 @@ const Header = () => {
 
         {/* Botão alinhado corretamente */}
         <div className="mt-4 sm:absolute sm:bottom-0 sm:left-full sm:ml-8">
-          <Button text="Conhecer" icon={<FiArrowDownRight className="text-[#313131] text-2xl transition-transform duration-300 transform" />} onClick={() => alert("clique")} />
+          <Button
+            text="Conhecer"
+            icon={<FiArrowDownRight className="text-[#313131] text-2xl transition-transform duration-300 transform" />}
+            onClick={() => navigate("/arquitetura/portfolio")} />
         </div>
       </div>
     </section>

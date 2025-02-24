@@ -10,6 +10,8 @@ import CasaToigoImage from "../assets/casa-toigo.webp";
 import CasaTonelloImage from "../assets/casa-tonello.webp";
 import CasaGeoImage from "../assets/casa-geo.webp";
 import CasaGiovanellaImage from "../assets/casa-giovanella.webp";
+import CasaRioImage from "../assets/casa-rio.webp";
+import CasaRivaImage from "../assets/casa-riva.webp";
 
 export const projectsDataPortfolio = [
   {
@@ -71,6 +73,18 @@ export const projectsDataPortfolio = [
     name: "Casa Giovanella",
     slug: "casa-giovanella",
     image: CasaGiovanellaImage,
+  },
+  {
+    id: 11,
+    name: "Casa Rio",
+    slug: "casa-rio",
+    image: CasaRioImage,
+  },
+  {
+    id: 12,
+    name: "Casa Riva Del Mare",
+    slug: "casa-riva-del-mare",
+    image: CasaRivaImage,
   },
 ];
 

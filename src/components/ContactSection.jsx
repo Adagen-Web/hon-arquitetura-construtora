@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import Divider from "./Divider";
 
 const ContactSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="flex flex-col items-center text-center py-20 px-6">
       <Divider className="mb-10" />
@@ -12,7 +15,7 @@ const ContactSection = () => {
       </div>
       <Button
         text="entre em contato"
-        onClick={() => { }}
+        onClick={() => navigate("/arquitetura/contato")}
         className="bg-black text-white mt-6 px-6 py-3 text-lg hover:bg-gray-800"
       />
     </section>

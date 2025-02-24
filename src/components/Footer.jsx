@@ -35,20 +35,20 @@ const Footer = () => {
           {/* Redes Sociais */}
           <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
+              <a href="https://www.facebook.com/share/1FVcAsdsDF/?mibextid=wwXIfr" target="_blank" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
                 <FaFacebookF />
               </a>
-              <a href="https://www.instagram.com/hon.arquitetos/" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
+              <a href="https://www.instagram.com/hon.arquitetos/" target="_blank" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
                 <FaInstagram />
               </a>
-              <a href="#" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
+              <a href="https://api.whatsapp.com/send?phone=5551982736101" target="_blank" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
                 <FaWhatsapp />
               </a>
             </div>
           </div>
         </div>
       </div>
-
+      
       {/* Botão de voltar ao topo */}
       <div className="flex justify-center mt-8">
         <a href="/arquitetura/" className="w-12 h-12 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">

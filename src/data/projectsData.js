@@ -64,6 +64,28 @@ import CasaGiovanellaImage2 from "../assets/casa-giovanella-02.webp";
 import CasaGiovanellaImage3 from "../assets/casa-giovanella-03.webp";
 import CasaGiovanellaImage4 from "../assets/casa-giovanella-04.webp";
 
+import CasaRioImage from "../assets/casa-rio.webp";
+import CasaRioImage1 from "../assets/casa-rio-01.webp";
+import CasaRioImage2 from "../assets/casa-rio-02.webp";
+import CasaRioImage3 from "../assets/casa-rio-03.webp";
+import CasaRioImage4 from "../assets/casa-rio-04.webp";
+import CasaRioImage5 from "../assets/casa-rio-05.webp";
+import CasaRioImage6 from "../assets/casa-rio-06.webp";
+import CasaRioImage7 from "../assets/casa-rio-07.webp";
+import CasaRioImage8 from "../assets/casa-rio-08.webp";
+
+import CasaRivaImage from "../assets/casa-riva.webp";
+import CasaRivaImage2 from "../assets/casa-riva-02.webp";
+import CasaRivaImage3 from "../assets/casa-riva-03.webp";
+import CasaRivaImage4 from "../assets/casa-riva-04.webp";
+import CasaRivaImage5 from "../assets/casa-riva-05.webp";
+import CasaRivaImage6 from "../assets/casa-riva-06.webp";
+import CasaRivaImage7 from "../assets/casa-riva-07.webp";
+import CasaRivaImage8 from "../assets/casa-riva-08.webp";
+import CasaRivaImage9 from "../assets/casa-riva-09.webp";
+import CasaRivaImage10 from "../assets/casa-riva-10.webp";
+import CasaRivaImage11 from "../assets/casa-riva-11.webp";
+
 const projectsData = [
   {
     id: 1,
@@ -227,6 +249,46 @@ const projectsData = [
       CasaGiovanellaImage2,
       CasaGiovanellaImage3,
       CasaGiovanellaImage4,
+    ]
+  },
+  {
+    id: 11,
+    slug: "casa-rio",
+    name: "Casa Rio",
+    year: 2023,
+    size: 211,
+    location: "Torres - RS",
+    image: CasaRioImage,
+    secondaryImage: CasaRioImage1,
+    gallery: [
+      CasaRioImage2,
+      CasaRioImage3,
+      CasaRioImage4,
+      CasaRioImage5,
+      CasaRioImage6,
+      CasaRioImage7,
+      CasaRioImage8
+    ]
+  },
+  {
+    id: 12,
+    slug: "casa-riva-del-mare",
+    name: "Casa Riva Del Mare",
+    year: 2022,
+    size: 798.47,
+    location: "Torres - RS",
+    image: CasaRivaImage,
+    secondaryImage: CasaRivaImage2,
+    gallery: [
+      CasaRivaImage3,
+      CasaRivaImage4,
+      CasaRivaImage5,
+      CasaRivaImage6,
+      CasaRivaImage7,
+      CasaRivaImage8,
+      CasaRivaImage9,
+      CasaRivaImage10,
+      CasaRivaImage11,
     ]
   },
 ];
