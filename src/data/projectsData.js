@@ -58,6 +58,12 @@ import CasaGeoImage3 from "../assets/casa-geo-03.webp";
 import CasaGeoImage4 from "../assets/casa-geo-04.webp";
 import CasaGeoImage5 from "../assets/casa-geo-05.webp";
 
+import CasaGiovanellaImage from "../assets/casa-giovanella.webp";
+import CasaGiovanellaImage1 from "../assets/casa-giovanella-01.webp";
+import CasaGiovanellaImage2 from "../assets/casa-giovanella-02.webp";
+import CasaGiovanellaImage3 from "../assets/casa-giovanella-03.webp";
+import CasaGiovanellaImage4 from "../assets/casa-giovanella-04.webp";
+
 const projectsData = [
   {
     id: 1,
@@ -205,6 +211,22 @@ const projectsData = [
       CasaGeoImage3,
       CasaGeoImage4,
       CasaGeoImage5,
+    ]
+  },
+  {
+    id: 10,
+    slug: "casa-giovanella",
+    name: "Casa Giovanella",
+    year: 2021,
+    size: 199.55,
+    location: "Torres - RS",
+    image: CasaGiovanellaImage,
+    secondaryImage: CasaGiovanellaImage1,
+    gallery: [
+      CasaGiovanellaImage1,
+      CasaGiovanellaImage2,
+      CasaGiovanellaImage3,
+      CasaGiovanellaImage4,
     ]
   },
 ];

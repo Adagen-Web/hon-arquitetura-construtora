@@ -9,6 +9,7 @@ import CasaOceanImage from "../assets/casa-ocean.webp";
 import CasaToigoImage from "../assets/casa-toigo.webp";
 import CasaTonelloImage from "../assets/casa-tonello.webp";
 import CasaGeoImage from "../assets/casa-geo.webp";
+import CasaGiovanellaImage from "../assets/casa-giovanella.webp";
 
 export const projectsDataPortfolio = [
   {
@@ -64,6 +65,12 @@ export const projectsDataPortfolio = [
     name: "Casa Geo",
     slug: "casa-geo",
     image: CasaGeoImage,
+  },
+  {
+    id: 10,
+    name: "Casa Giovanella",
+    slug: "casa-giovanella",
+    image: CasaGiovanellaImage,
   },
 ];
 
