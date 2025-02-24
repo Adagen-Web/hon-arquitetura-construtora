@@ -7,8 +7,9 @@ import WhatsAppButton from "./components/WhatsAppButton";
 import ContactPage from "./pages/ContactPage";
 import MapSection from "./components/MapSection";
 import AboutPage from "./pages/AboutPage";
-import PortfolioPage from "./pages/PortfolioPage";
+import PortfolioPage, { projectsDataPortfolio } from "./pages/PortfolioPage";
 import ProjectDetail from "./components/ProjectDetail";
+import ProjectCard from "./components/ProjectCard";
 
 function Layout() {
   const location = useLocation(); // Obtém a rota atual
@@ -19,7 +20,7 @@ function Layout() {
       {location.pathname === "/arquitetura/" && <Header />}
 
       <Routes>
-        <Route path="/arquitetura/" element={<h1 className="text-center mt-10">Portfolio aqui</h1>} />
+        <Route path="/arquitetura/" element={<ProjectCard projects={projectsDataPortfolio} isPortfolioHome />} />
         <Route path="/arquitetura/sobre" element={<AboutPage />} />
         <Route path="/arquitetura/portfolio" element={<PortfolioPage />} />
         <Route path="/arquitetura/portfolio/:slug" element={<ProjectDetail />} />

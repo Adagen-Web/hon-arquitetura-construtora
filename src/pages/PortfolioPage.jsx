@@ -10,7 +10,7 @@ import CasaToigoImage from "../assets/casa-toigo.webp";
 import CasaTonelloImage from "../assets/casa-tonello.webp";
 import CasaGeoImage from "../assets/casa-geo.webp";
 
-const projectsData = [
+export const projectsDataPortfolio = [
   {
     id: 1,
     name: "Bella Residencial",
@@ -70,9 +70,9 @@ const projectsData = [
 const PortfolioPage = () => {
 
   return (
-    <div className="">
+    <div className="mb-10">
       <PortfolioHeader />
-      <ProjectCard projects={projectsData} />
+      <ProjectCard projects={projectsDataPortfolio} isPortfolioHome={false} />
     </div>
   );
 };
