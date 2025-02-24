@@ -7,6 +7,8 @@ import CasaJ10Image from "../assets/casa-j10-03.webp";
 import CasaL46Image from "../assets/casa-l46.webp";
 import CasaOceanImage from "../assets/casa-ocean.webp";
 import CasaToigoImage from "../assets/casa-toigo.webp";
+import CasaTonelloImage from "../assets/casa-tonello.webp";
+import CasaGeoImage from "../assets/casa-geo.webp";
 
 const projectsData = [
   {
@@ -50,6 +52,18 @@ const projectsData = [
     name: "Casa Toigo",
     slug: "casa-toigo",
     image: CasaToigoImage,
+  },
+  {
+    id: 8,
+    name: "Casa TonelLo",
+    slug: "casa-tonello",
+    image: CasaTonelloImage,
+  },
+  {
+    id: 9,
+    name: "Casa Geo",
+    slug: "casa-geo",
+    image: CasaGeoImage,
   },
 ];
 

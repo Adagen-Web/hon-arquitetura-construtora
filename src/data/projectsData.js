@@ -44,6 +44,20 @@ import CasaToigoImage3 from "../assets/casa-toigo-03.webp";
 import CasaToigoImage4 from "../assets/casa-toigo-04.webp";
 import CasaToigoImage5 from "../assets/casa-toigo-05.webp";
 
+import CasaTonelloImage from "../assets/casa-tonello.webp";
+import CasaTonelloImage1 from "../assets/casa-tonello-01.webp";
+import CasaTonelloImage2 from "../assets/casa-tonello-02.webp";
+import CasaTonelloImage3 from "../assets/casa-tonello-03.webp";
+import CasaTonelloImage4 from "../assets/casa-tonello-04.webp";
+import CasaTonelloImage5 from "../assets/casa-tonello-05.webp";
+
+import CasaGeoImage from "../assets/casa-geo.webp";
+import CasaGeoImage1 from "../assets/casa-geo-01.webp";
+import CasaGeoImage2 from "../assets/casa-geo-02.webp";
+import CasaGeoImage3 from "../assets/casa-geo-03.webp";
+import CasaGeoImage4 from "../assets/casa-geo-04.webp";
+import CasaGeoImage5 from "../assets/casa-geo-05.webp";
+
 const projectsData = [
   {
     id: 1,
@@ -159,6 +173,38 @@ const projectsData = [
       CasaToigoImage3,
       CasaToigoImage4,
       CasaToigoImage5,
+    ]
+  },
+  {
+    id: 8,
+    slug: "casa-tonello",
+    name: "Casa Tonello",
+    year: 2020,
+    size: 291.02,
+    location: "Torres - RS",
+    image: CasaTonelloImage,
+    secondaryImage: CasaTonelloImage1,
+    gallery: [
+      CasaTonelloImage2,
+      CasaTonelloImage3,
+      CasaTonelloImage4,
+      CasaTonelloImage5,
+    ]
+  },
+  {
+    id: 9,
+    slug: "casa-geo",
+    name: "Casa Geo",
+    year: 2021,
+    size: 182.41,
+    location: "Torres - RS",
+    image: CasaGeoImage,
+    secondaryImage: CasaGeoImage1,
+    gallery: [
+      CasaGeoImage2,
+      CasaGeoImage3,
+      CasaGeoImage4,
+      CasaGeoImage5,
     ]
   },
 ];
