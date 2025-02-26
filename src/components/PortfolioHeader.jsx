@@ -1,6 +1,6 @@
 const PortfolioHeader = () => {
   return (
-    <section className="container mx-auto px-6 sm:px-16 py-12 flex flex-col sm:flex-row justify-between items-center sm:items-start text-center sm:text-left">
+    <section className="container px-8 sm:px-16 py-12 flex flex-col sm:flex-row justify-between items-start text-center sm:text-left">
       {/* Título */}
       <h1 className="text-5xl sm:text-7xl font-yantramanav font-extralight text-black mb-4 sm:mb-0">
         Portfólio

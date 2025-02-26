@@ -1,16 +1,16 @@
 import PortfolioHeader from "../components/PortfolioHeader";
 import ProjectCard from "../components/ProjectCard";
-import CasaC10Image from "../assets/casa-c10-03.webp";
+import CasaC10Image from "../assets/casa-c10-04.webp";
 import CasaFaroImage from "../assets/casa-del-faro.webp";
-import CasaBellaImage from "../assets/casa-bella.webp";
-import CasaJ10Image from "../assets/casa-j10-03.webp";
+import CasaBellaImage from "../assets/casa-bella03.webp";
+import CasaJ10Image from "../assets/casa-j10-01.webp";
 import CasaL46Image from "../assets/casa-l46.webp";
 import CasaOceanImage from "../assets/casa-ocean.webp";
 import CasaToigoImage from "../assets/casa-toigo.webp";
-import CasaTonelloImage from "../assets/casa-tonello.webp";
-import CasaGeoImage from "../assets/casa-geo.webp";
+import CasaTonelloImage from "../assets/casa-tonello-01.webp";
+import CasaGeoImage from "../assets/casa-geo-02.webp";
 import CasaGiovanellaImage from "../assets/casa-giovanella.webp";
-import CasaRioImage from "../assets/casa-rio.webp";
+import CasaRioImage from "../assets/casa-rio-01.webp";
 import CasaRivaImage from "../assets/casa-riva.webp";
 
 export const projectsDataPortfolio = [

@@ -97,12 +97,10 @@ const projectsData = [
     image: CasaBellaImage, // Imagem principal
     secondaryImage: CasaBellaImage1, // Imagem lateral
     gallery: [
-      CasaBellaImage,
       CasaBellaImage1,
-      CasaBellaImage2,
       CasaBellaImage3,
-      CasaBellaImage4,
-      CasaBellaImage5
+      CasaBellaImage5,
+      CasaBellaImage4
     ]
   },
   {
@@ -181,10 +179,10 @@ const projectsData = [
     image: CasaOceanImage,
     secondaryImage: CasaOceanImage1,
     gallery: [
-      CasaOceanImage1,
-      CasaOceanImage2,
-      CasaOceanImage3,
       CasaOceanImage4,
+      CasaOceanImage2,
+      CasaOceanImage1,
+      CasaOceanImage3,
     ]
   },
   {
@@ -197,10 +195,10 @@ const projectsData = [
     image: CasaToigoImage,
     secondaryImage: CasaToigoImage1,
     gallery: [
-      CasaToigoImage2,
       CasaToigoImage3,
-      CasaToigoImage4,
       CasaToigoImage5,
+      CasaToigoImage2,
+      CasaToigoImage4,
     ]
   },
   {
@@ -213,10 +211,10 @@ const projectsData = [
     image: CasaTonelloImage,
     secondaryImage: CasaTonelloImage1,
     gallery: [
-      CasaTonelloImage2,
       CasaTonelloImage3,
-      CasaTonelloImage4,
+      CasaTonelloImage2,
       CasaTonelloImage5,
+      CasaTonelloImage4,
     ]
   },
   {
@@ -229,9 +227,9 @@ const projectsData = [
     image: CasaGeoImage,
     secondaryImage: CasaGeoImage1,
     gallery: [
+      CasaGeoImage4,
       CasaGeoImage2,
       CasaGeoImage3,
-      CasaGeoImage4,
       CasaGeoImage5,
     ]
   },
@@ -258,16 +256,16 @@ const projectsData = [
     year: 2023,
     size: 211,
     location: "Torres - RS",
-    image: CasaRioImage,
+    image: CasaRioImage2,
     secondaryImage: CasaRioImage1,
     gallery: [
       CasaRioImage2,
-      CasaRioImage3,
       CasaRioImage4,
+      CasaRioImage3,
+      CasaRioImage7,
+      CasaRioImage8,
       CasaRioImage5,
       CasaRioImage6,
-      CasaRioImage7,
-      CasaRioImage8
     ]
   },
   {
@@ -280,15 +278,16 @@ const projectsData = [
     image: CasaRivaImage,
     secondaryImage: CasaRivaImage2,
     gallery: [
-      CasaRivaImage3,
-      CasaRivaImage4,
-      CasaRivaImage5,
-      CasaRivaImage6,
-      CasaRivaImage7,
-      CasaRivaImage8,
-      CasaRivaImage9,
-      CasaRivaImage10,
       CasaRivaImage11,
+      CasaRivaImage10,
+      CasaRivaImage8,
+      CasaRivaImage7,
+      CasaRivaImage4,
+      CasaRivaImage6,
+      CasaRivaImage3,
+      CasaRivaImage5,
+      CasaRivaImage9,
+      CasaRivaImage2,
     ]
   },
 ];
