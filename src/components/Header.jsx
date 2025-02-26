@@ -21,7 +21,7 @@ const Header = () => {
           <Button
             text="Conhecer"
             icon={<FiArrowDownRight className="text-[#313131] text-2xl transition-transform duration-300 transform" />}
-            onClick={() => navigate("/arquitetura/portfolio")} />
+            onClick={() => navigate("/portfolio")} />
         </div>
       </div>
     </section>

@@ -1,11 +1,12 @@
 {
   "name": "hon-arq",
   "private": true,
+  "homepage": "https://somoshon.com.br/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node afterBuild",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

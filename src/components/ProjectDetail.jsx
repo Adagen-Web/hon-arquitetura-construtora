@@ -52,24 +52,24 @@ const ProjectDetail = () => {
         </div>
 
         {/* Navegação entre Projetos */}
-        <div className="flex justify-between my-16 mx-16">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 my-8 sm:my-16 px-6 sm:px-16">
           {prevProject ? (
             <Link
-              to={`/arquitetura/portfolio/${prevProject.slug}`}
-              className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105"
+              to={`/portfolio/${prevProject.slug}`}
+              className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105 w-full sm:w-auto text-left sm:text-center"
             >
               ← {prevProject.name}
             </Link>
-          ) : <div />}
+          ) : <div className="hidden sm:block" />} {/* Evita espaçamento extra no mobile */}
 
           {nextProject ? (
             <Link
-              to={`/arquitetura/portfolio/${nextProject.slug}`}
-              className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105"
+              to={`/portfolio/${nextProject.slug}`}
+              className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105 w-full sm:w-auto text-right sm:text-center"
             >
               {nextProject.name} →
             </Link>
-          ) : <div />}
+          ) : <div className="hidden sm:block" />} {/* Evita espaçamento extra no mobile */}
         </div>
       {/* </div> */}
     </div>

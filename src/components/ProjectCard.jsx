@@ -9,7 +9,7 @@ const ProjectCard = ({ projects, limit, isPortfolioHome }) => {
       {displayedProjects.map((project) => (
         <Link
           key={project.id}
-          to={`/arquitetura/portfolio/${project.slug}`}
+          to={`/portfolio/${project.slug}`}
           className="relative group overflow-hidden"
         >
           {/* Imagem */}

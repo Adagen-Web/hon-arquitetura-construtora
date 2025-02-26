@@ -15,7 +15,7 @@ const Footer = () => {
 
           {/* Centro - Logo */}
           <div className="sm:mt-8 text-center sm:text-left">
-            <a href="/arquitetura/">
+            <a href="/">
               <img
                 src={logoArqConst}
                 alt="HON Arquitetura Construtora"
@@ -51,7 +51,7 @@ const Footer = () => {
       
       {/* Botão de voltar ao topo */}
       <div className="flex justify-center mt-8">
-        <a href="/arquitetura/" className="w-12 h-12 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
+        <a href="/" className="w-12 h-12 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
           ↑
         </a>
       </div>

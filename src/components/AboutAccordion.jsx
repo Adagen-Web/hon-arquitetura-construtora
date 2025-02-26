@@ -47,7 +47,7 @@ const AboutAccordion = () => {
   return (
     <div className="w-full sm:w-1/2 max-w-[600px]">
       {/* Título Valores com mais espaçamento */}
-      <h2 className="text-3xl font-yantramanav font-black text-black mb-10">Valores</h2>
+      <h2 className="text-3xl font-yantramanav font-normal text-[#313131] uppercase mb-4">Valores</h2>
 
       <div>
         {valuesData.map((item, index) => (
