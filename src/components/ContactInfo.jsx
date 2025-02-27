@@ -2,7 +2,7 @@ import { FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 const ContactInfo = () => {
   return (
-    <div className="flex flex-col space-y-4 text-lg font-extralight text-[#313131]">
+    <div className="flex flex-col space-y-4 lg:ml-[17px] md:ml-[17px] text-lg font-extralight text-[#313131]">
       <p className="text-[#313131]">Avenida Silva Jardim 1541 Predial <br /> Torres/RS</p>
       <p className="text-[#313131]">Rua do Tubarão 845 Bellatorres <br /> Passo de Torres/SC</p>
 
