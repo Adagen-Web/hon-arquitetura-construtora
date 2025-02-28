@@ -11,7 +11,6 @@ const AboutPage = () => {
     <div className="">
       <AboutHero image={aboutImage} />
       <Divider className="mt-4 mb-8" />
-      <AboutDescription />
       <MissionVision />
       <AboutSection />
       <CommitmentSection />

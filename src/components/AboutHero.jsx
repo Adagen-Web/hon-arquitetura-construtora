@@ -2,39 +2,43 @@ import { Link } from "react-router-dom";
 
 const AboutHero = ({ image }) => {
   return (
-    <section className="mx-auto px-8 ml-2 sm:px-16 py-12 sm:py-16">
-      <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-12 sm:gap-0">
-        {/* Texto */}
-        <div className="w-full sm:w-1/2 text-left sm:ml-6">
-          <h2 className="text-5xl sm:text-6xl font-yantramanav font-extralight text-[#000000] leading-tight tracking-[-1px]">
-            SOMOS HON!
+    <section className="container mx-auto px-6 sm:px-16 py-16">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-12 sm:gap-8">
+
+        {/* Texto à esquerda */}
+        <div className="w-full sm:w-1/2 text-left">
+          <h2 className="text-5xl sm:text-6xl font-yantramanav text-black font-light leading-tight">
+            Sobre a Hon Construtora
           </h2>
-          <h2 className="text-4xl sm:text-5xl font-yantramanav font-extralight text-[#000000] leading-tight tracking-[-1px] mt-2">
-            Somos especialistas em <br />
-            transformar espaços <br />
-            em histórias vivas.
-          </h2>
-          <p className="text-base sm:text-xl font-extralight text-[#313131] mt-6">
+          <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mt-6">
             Somos um escritório de arquitetura dedicado a oferecer serviços abrangentes,
             que vão desde projetos residenciais e comerciais até a execução completa de obras.
           </p>
-          <p className="text-base sm:text-xl font-extralight text-[#313131] mt-4">
+          <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mt-4">
             Nossa equipe combina <strong>criatividade e profissionalismo</strong> para criar
             espaços excepcionais, que atendam às necessidades e desejos de nossos clientes.
           </p>
+          <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mt-4">
+            Desde a concepção até a conclusão, trabalhamos em estreita colaboração com você
+            para garantir que cada detalhe seja cuidadosamente planejado e executado,
+            resultando em projetos arquitetônicos de alta qualidade e impacto visual.
+          </p>
 
           {/* Botão */}
-          <Link to="/arquitetura/contato" className="mt-6 leading-[19px] inline-block border border-black px-5 py-2 lg:text-base md:text-base sm:px-6 sm:py-3 sm:text-lg text-black hover:bg-black hover:text-white transition">
+          <Link
+            to="/arquitetura/contato"
+            className="mt-6 inline-block border border-black px-6 py-3 text-lg text-black hover:bg-black hover:text-white transition"
+          >
             Entre em contato
           </Link>
         </div>
 
-        {/* Imagem redonda */}
-        <div className="w-full sm:w-1/2 flex justify-center">
+        {/* Imagem grande à direita */}
+        <div className="w-full sm:w-[55%] flex justify-end">
           <img
             src={image}
             alt="Escritório HON"
-            className="w-80 h-80 sm:w-[450px] sm:h-[450px] object-cover rounded-full"
+            className="w-full sm:w-[700px] md:w-[750px] lg:w-[800px] h-auto object-cover"
           />
         </div>
       </div>
