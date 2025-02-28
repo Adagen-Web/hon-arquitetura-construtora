@@ -5,7 +5,7 @@ const ProjectCard = ({ projects, limit, isPortfolioHome }) => {
   const displayedProjects = limit ? projects.slice(0, limit) : projects;
 
   return (
-    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ${isPortfolioHome ? "gap-4" : "gap-0"} mt-8`}>
+    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ${isPortfolioHome ? "gap-4" : "gap-0.5"} mt-8`}>
       {displayedProjects.map((project) => (
         <Link
           key={project.id}
