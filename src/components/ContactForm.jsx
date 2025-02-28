@@ -29,7 +29,7 @@ const ContactForm = () => {
       formDataToSend.append("email", formData.email);
       formDataToSend.append("mensagem", formData.mensagem);
 
-      const response = await fetch("https://formsubmit.co/mateuspaulart@gmail.com", {
+      const response = await fetch("https://formsubmit.co/contato@somoshon.com.br", {
         method: "POST",
         body: formDataToSend,
       });
