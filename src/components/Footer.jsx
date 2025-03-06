@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import logoArqConst from "../../public/logo-arq-const.png";
+import logoArqConst from "../../public/logo-hon-arq-white.png";
 
 const Footer = () => {
   return (
@@ -14,12 +14,12 @@ const Footer = () => {
           </div> */}
 
           {/* Centro - Logo */}
-          <div className="sm:mt-8 text-center sm:text-left">
+          <div className="sm:mt-8 sm:text-left">
             <a href="/">
               <img
                 src={logoArqConst}
                 alt="HON Arquitetura Construtora"
-                className="w-64 sm:w-72 mx-auto sm:mx-0"
+                className="w-40 sm:w-46 mx-auto sm:mx-0"
               />
             </a>
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/share/1FVcAsdsDF/?mibextid=wwXIfr" target="_blank" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
                 <FaFacebookF />
               </a>
-              <a href="https://www.instagram.com/hon.arquitetos/" target="_blank" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
+              <a href="https://www.instagram.com/hon.arquitetura/" target="_blank" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">
                 <FaInstagram />
               </a>
               <a href="https://api.whatsapp.com/send?phone=5551982736101" target="_blank" className="w-10 h-10 flex items-center justify-center border border-white rounded-full hover:bg-gray-800">

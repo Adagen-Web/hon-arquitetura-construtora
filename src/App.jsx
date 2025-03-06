@@ -29,7 +29,7 @@ function Layout() {
         <Route path="*" element={<NotFoundPage />} /> {/* Página 404 */}
       </Routes>
       {location.pathname === "/" && <ContactSection />}
-      {location.pathname === "/contato" && <MapSection />}
+      {/* {location.pathname === "/contato" && <MapSection />} */}
       <Footer />
       <WhatsAppButton />
     </>
