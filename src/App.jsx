@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutPage";
 import PortfolioPage, { projectsDataPortfolio } from "./pages/PortfolioPage";
 import ProjectDetail from "./components/ProjectDetail";
 import ProjectCard from "./components/ProjectCard";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function Layout() {
   const location = useLocation(); // Obtém a rota atual
@@ -25,6 +26,7 @@ function Layout() {
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/portfolio/:slug" element={<ProjectDetail />} />
         <Route path="/contato" element={<ContactPage />} />
+        <Route path="*" element={<NotFoundPage />} /> {/* Página 404 */}
       </Routes>
       {location.pathname === "/" && <ContactSection />}
       {location.pathname === "/contato" && <MapSection />}
