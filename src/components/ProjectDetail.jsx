@@ -21,7 +21,7 @@ const ProjectDetail = () => {
       {/* <div className="container mx-auto px-6 py-16"> */}
 
         {/* Informações do Projeto */}
-        <div className="items-center grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+        <div className="items-center grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 mr-4">
           <div className="ml-20">
             <h1 className="text-4xl font-bold text-[#313131]">{project.name}</h1>
             <p className="text-lg text-[#313131] mt-4">
@@ -40,7 +40,7 @@ const ProjectDetail = () => {
         </div>
 
         {/* Galeria de Imagens */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 mt-12">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 mr-4 ml-4 mt-12">
           {project.gallery.map((image, index) => (
             <img
               key={index}
