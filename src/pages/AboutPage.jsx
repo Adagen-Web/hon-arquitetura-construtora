@@ -1,10 +1,10 @@
 import AboutHero from "../components/AboutHero";
-import aboutImage from "../../public/imgSobre.webp";
+import aboutImage from "../../public/sobre-hon-arquitetura.jpg";
 import Divider from "../components/Divider";
-import AboutDescription from "../components/AboutDescription";
 import MissionVision from "../components/MissionVision";
 import AboutSection from "../components/AboutSection";
 import CommitmentSection from "../components/CommitmentSection";
+import TeamSection from "../components/TeamSection";
 
 const AboutPage = () => {
   return (
@@ -14,7 +14,7 @@ const AboutPage = () => {
       <MissionVision />
       <AboutSection />
       <CommitmentSection />
-      {/* <TeamSection /> */}
+      <TeamSection />
     </div>
   );
 };

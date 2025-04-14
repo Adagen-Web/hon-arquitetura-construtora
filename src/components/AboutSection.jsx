@@ -1,4 +1,4 @@
-import valuesImg from "../../public/imgSobre2.webp"; // Substitua pela imagem correta
+import valuesImg from "../../public/sobre-foto-equipe-arquitetura.jpg";
 import AboutImage from "./AboutImage";
 import AboutAccordion from "./AboutAccordion";
 

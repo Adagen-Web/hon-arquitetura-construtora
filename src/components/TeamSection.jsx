@@ -3,31 +3,31 @@ const teamMembers = [
     name: "NORTHON PASSAIA",
     role: "Sócio-Fundador & Diretor Executivo",
     profession: "Arquiteto e Urbanista",
-    image: "https://github.com/Mateusp23.png",
+    image: "/northon.jpg",
   },
   {
     name: "DIEGO SCHUASTE MAGNUS",
     role: "Sócio & Coordenador de Projetos e Administrativo",
     profession: "Arquiteto e Urbanista",
-    image: "https://github.com/Mateusp23.png",
+    image: "/diego.jpg",
   },
   {
     name: "BRENDA DA SILVA EUGÊNIO",
     role: "Associada & Coordenadora de Interiores",
     profession: "Arquiteta e Urbanista",
-    image: "https://github.com/Mateusp23.png",
+    image: "/brenda.jpg",
   },
   {
     name: "CATIELE DA SILVA",
     role: "Associada & Coordenadora de Projetos",
     profession: "Arquiteta e Urbanista",
-    image: "https://github.com/Mateusp23.png",
+    image: "/catiele.jpg",
   },
   {
     name: "LUIZ FERNANDO TRISTÃO SCHEFFER",
     role: "Coordenador de Processos Legais",
     profession: "Arquiteto e Urbanista",
-    image: "https://github.com/Mateusp23.png",
+    image: "/luiz.jpg",
   },
 ];
 
@@ -48,7 +48,7 @@ const TeamSection = () => {
             <img
               src={member.image}
               alt={member.name}
-              className="w-full h-80 object-cover"
+              className="w-full h-80 object-cover object-top"
             />
 
             {/* Nome */}
