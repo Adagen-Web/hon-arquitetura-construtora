@@ -24,7 +24,7 @@ const teamMembers = [
     image: "/catiele.jpg",
   },
   {
-    name: "LUIZ FERNANDO TRISTÃO SCHEFFER",
+    name: "LUIZ FERNANDO TRISTÃO",
     role: "Coordenador de Processos Legais",
     profession: "Arquiteto e Urbanista",
     image: "/luiz.jpg",

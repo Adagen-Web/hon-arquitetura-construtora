@@ -6,13 +6,13 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="container mx-auto mt-8 flex flex-col sm:flex-row items-start sm:items-end py-8 px-10 sm:px-8 bg-white">
-      <div className="flex flex-col relative lg:ml-[17px] md:ml-0 sm:ml-[-20px] max-w-[90%] sm:max-w-[750px]">
+    <section className="container mx-auto mt-8 flex flex-col sm:flex-row items-start sm:items-end py-8 px-4 bg-white">
+      <div className="flex flex-col relative max-w-[90%] sm:max-w-[750px]">
         {/* Texto */}
-        <h2 className="text-xl sm:text-3xl font-publicSans leading-[1.1] text-secondary font-extralight tracking-wide">
+        <h2 className="text-md sm:text-xl font-publicSans leading-[1.1] text-secondary font-extralight tracking-wide">
           SOMOS
         </h2>
-        <h1 className="text-5xl sm:text-7xl font-yantramanav font-light text-primary leading-[1.1]">
+        <h1 className="text-2xl sm:text-5xl font-yantramanav font-light text-primary leading-[1.1]">
           aqueles que visam <br /> atingir seus ideais
         </h1>
 

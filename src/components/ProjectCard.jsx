@@ -19,14 +19,19 @@ const ProjectCard = ({ projects, limit, isPortfolioHome }) => {
             className="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
           />
 
-          {/* Sobreposição escura */}
-          <div className="absolute inset-0 bg-black opacity-30 sm:opacity-0 group-hover:opacity-60 transition-opacity duration-300"></div>
+          {/* Sobreposição escura (mantida no desktop e mobile) */}
+          <div className="absolute inset-0 bg-black opacity-30 sm:opacity-50 group-hover:opacity-0 transition-opacity duration-300"></div>
 
-          {/* Nome do Projeto + Ícone */}
+          {/* Nome do Projeto e Ícone */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white 
-                          opacity-100 sm:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <h3 className="text-lg font-semibold text-center">{project.name}</h3>
-            <FiArrowUpRight className="text-2xl mt-2 hidden sm:block" />
+                          sm:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <h3 className="text-lg font-semibold text-center block sm:hidden">
+              {project.name}
+            </h3>
+            <div className="hidden sm:flex flex-col items-center">
+              <h3 className="text-lg font-semibold text-center">{project.name}</h3>
+              <FiArrowUpRight className="text-2xl mt-2" />
+            </div>
           </div>
         </Link>
       ))}
