@@ -7,7 +7,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-white py-4 px-8 relative z-50">
+    <header className="bg-white py-4 sm:px-4 px-4 relative z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div>

@@ -6,8 +6,8 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="container mx-auto mt-8 flex flex-col sm:flex-row items-start sm:items-end py-8 px-4 bg-white">
-      <div className="flex flex-col relative max-w-[90%] sm:max-w-[750px]">
+    <section className="container mx-auto mt-8 flex flex-col sm:flex-row py-8 sm:px-4 px-8 bg-white">
+      <div className="flex flex-col relative">
         {/* Texto */}
         <h2 className="text-md sm:text-xl font-publicSans leading-[1.1] text-secondary font-extralight tracking-wide">
           SOMOS
