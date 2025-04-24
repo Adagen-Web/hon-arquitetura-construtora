@@ -10,7 +10,7 @@ const ContactSection = () => {
       <Divider className="mb-6 sm:mb-10 w-full" />
 
       <div className="w-full sm:w-[600px]">
-        <h2 className="text-2xl sm:text-6xl font-yantramanav font-light text-[#313131] md:leading-14 lg:leading-14">
+        <h2 className="text-2xl sm:text-5xl font-yantramanav font-light text-[#313131] md:leading-14 lg:leading-14">
           Quer saber mais sobre os nossos projetos?
         </h2>
       </div>
