@@ -86,9 +86,45 @@ import CasaRivaImage9 from "../assets/casa-riva-09.webp";
 import CasaRivaImage10 from "../assets/casa-riva-10.webp";
 import CasaRivaImage11 from "../assets/casa-riva-11.webp";
 
+import laVista from "../assets/lavista.jpg";
+import laVista1 from "../assets/lavista-1.jpg";
+import laVista3 from "../assets/lavista-3.jpg";
+import laVista4 from "../assets/lavista-4.jpg";
+import laVista5 from "../assets/lavista-5.jpg";
+import laVista6 from "../assets/lavista-6.jpg";
+import laVista7 from "../assets/lavista-7.jpg";
+
+import pontal from "../assets/pontal.jpg";
+import pontal1 from "../assets/pontal1.jpg";
+import pontal2 from "../assets/pontal2.jpg";
+import pontal3 from "../assets/pontal3.jpg";
+import pontal4 from "../assets/pontal4.jpg";
+import pontal5 from "../assets/pontal5.jpg";
+import pontal6 from "../assets/pontal6.jpg";
+import pontal7 from "../assets/pontal7.jpg";
+import pontal8 from "../assets/pontal8.jpg";
+import pontal9 from "../assets/pontal9.jpg";
+
+import varandas from "../assets/varandas.jpg";
+import varandas1 from "../assets/varandas1.jpg";
+import varandas2 from "../assets/varandas2.jpg";
+import varandas3 from "../assets/varandas3.jpg";
+import varandas4 from "../assets/varandas4.jpg";
+import varandas5 from "../assets/varandas5.jpg";
+import varandas6 from "../assets/varandas6.jpg";
+import varandas7 from "../assets/varandas7.jpg";
+import varandas8 from "../assets/varandas8.jpg";
+import varandas9 from "../assets/varandas9.jpg";
+
+import casad02 from "../assets/casa-d02.jpg";
+import casad021 from "../assets/casa-d02-1.jpg";
+import casad022 from "../assets/casa-d02-2.jpg";
+import casad023 from "../assets/casa-d02-3.jpg";
+import casad024 from "../assets/casa-d02-4.jpg";
+
 const projectsData = [
   {
-    id: 1,
+    id: 6,
     slug: "bella-residencial",
     name: "Bella Residencial",
     year: 2021,
@@ -104,7 +140,7 @@ const projectsData = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     slug: "casa-c10",
     name: "Casa C10",
     year: 2023,
@@ -120,7 +156,7 @@ const projectsData = [
     ]
   },
   {
-    id: 3,
+    id: 8,
     slug: "casa-del-faro",
     name: "Casa Del Faro",
     year: 2024,
@@ -136,7 +172,7 @@ const projectsData = [
     ]
   },
   {
-    id: 4,
+    id: 16,
     slug: "casa-j10",
     name: "Casa J10",
     year: 2022,
@@ -154,7 +190,7 @@ const projectsData = [
     ]
   },
   {
-    id: 5,
+    id: 9,
     slug: "casa-l46",
     name: "Casa L46",
     year: 2023,
@@ -170,7 +206,7 @@ const projectsData = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     slug: "casa-ocean",
     name: "Casa Ocean",
     year: 2023,
@@ -186,7 +222,7 @@ const projectsData = [
     ]
   },
   {
-    id: 7,
+    id: 15,
     slug: "casa-toigo",
     name: "Casa Toigo",
     year: 2020,
@@ -202,7 +238,7 @@ const projectsData = [
     ]
   },
   {
-    id: 8,
+    id: 14,
     slug: "casa-tonello",
     name: "Casa Tonello",
     year: 2020,
@@ -218,7 +254,7 @@ const projectsData = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     slug: "casa-geo",
     name: "Casa Geo",
     year: 2021,
@@ -234,7 +270,7 @@ const projectsData = [
     ]
   },
   {
-    id: 10,
+    id: 13,
     slug: "casa-giovanella",
     name: "Casa Giovanella",
     year: 2021,
@@ -250,7 +286,7 @@ const projectsData = [
     ]
   },
   {
-    id: 11,
+    id: 2,
     slug: "casa-rio",
     name: "Casa Rio",
     year: 2023,
@@ -269,7 +305,7 @@ const projectsData = [
     ]
   },
   {
-    id: 12,
+    id: 5,
     slug: "casa-riva-del-mare",
     name: "Casa Riva Del Mare",
     year: 2022,
@@ -288,6 +324,80 @@ const projectsData = [
       CasaRivaImage5,
       CasaRivaImage9,
       CasaRivaImage2,
+    ]
+  },
+  {
+    id: 11,
+    slug: "la-vista",
+    name: "La Vista",
+    year: 2024,
+    size: 1842.92,
+    location: "Torres - RS",
+    image: laVista,
+    secondaryImage: laVista1,
+    gallery: [
+      laVista1,
+      laVista3,
+      laVista4,
+      laVista5,
+      laVista6,
+      laVista7,
+    ]
+  },
+  {
+    id: 12,
+    slug: "pontal",
+    name: "Pontal 2317",
+    year: 2024,
+    size: 25,
+    location: "Torres - RS",
+    image: pontal,
+    secondaryImage: pontal1,
+    gallery: [
+      pontal2,
+      pontal3,
+      pontal4,
+      pontal7,
+      pontal6,
+      pontal8,
+      pontal9,
+      pontal5,
+    ]
+  },
+  {
+    id: 1,
+    slug: "varandas",
+    name: "Varandas",
+    year: 2024,
+    size: 332,
+    location: "Torres - RS",
+    image: varandas,
+    secondaryImage: varandas1,
+    gallery: [
+      varandas3,
+      varandas4,
+      varandas7,
+      varandas8,
+      varandas9,
+      varandas5,
+      varandas6,
+      varandas2,
+    ]
+  },
+  {
+    id: 4,
+    slug: "casa-d02",
+    name: "Casa D02",
+    year: 2023,
+    size: 209.94,
+    location: "Torres - RS",
+    image: casad02,
+    secondaryImage: casad021,
+    gallery: [
+      casad024,
+      casad021,
+      casad022,
+      casad023,
     ]
   },
 ];

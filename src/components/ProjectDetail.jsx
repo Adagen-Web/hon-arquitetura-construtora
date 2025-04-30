@@ -1,10 +1,15 @@
 import { Link, useParams } from "react-router-dom";
 import projectsData from "../data/projectsData";
+import { useEffect } from "react";
 
 const ProjectDetail = () => {
   const { slug } = useParams();
   const projectIndex = projectsData.findIndex((p) => p.slug === slug);
   const project = projectsData[projectIndex];
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" }); // ou behavior: "auto"
+  }, [slug]);
 
   if (!project) {
     return <h2 className="text-center mt-20 text-2xl text-gray-600">Projeto não encontrado.</h2>;
