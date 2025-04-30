@@ -15,13 +15,11 @@ const AboutHero = ({ image }) => {
             em histórias vivas.
           </h2>
           <p className="text-base sm:text-lg font-extralight text-[#313131] mt-6">
-            Somos um escritório de arquitetura dedicado a oferecer serviços abrangentes,
-            que vão desde projetos residenciais e comerciais até a execução completa de obras.
+            Escritório de arquitetura do litoral do Rio Grande do Sul, que expressa identidade, funcionalidade e elegância através de uma linguagem pura e atemporal.
+            Valorizamos a verdade dos materiais, elementos que carregam sua essência e contam sua própria história.
+            Cada projeto nasce desse princípio, criando espaços que equilibram forma, essência e propósito, sempre em harmonia com a paisagem e com quem os habita.
           </p>
-          <p className="text-base sm:text-lg font-extralight text-[#313131] mt-4">
-            Nossa equipe combina <strong>criatividade e profissionalismo</strong> para criar
-            espaços excepcionais, que atendam às necessidades e desejos de nossos clientes.
-          </p>
+          
 
           {/* Botão */}
           <Link to="/arquitetura/contato" className="mt-6 leading-[19px] inline-block border border-black px-5 py-2 lg:text-base md:text-base sm:px-6 sm:py-3 sm:text-lg text-black hover:bg-black hover:text-white transition">
@@ -34,7 +32,7 @@ const AboutHero = ({ image }) => {
           <img
             src={image}
             alt="Escritório HON"
-            className="w-80 h-80 sm:w-[450px] sm:h-[450px] object-cover rounded-full"
+            className="w-80 h-80 sm:w-[450px] sm:h-[450px] object-cover rounded-sm"
           />
         </div>
       </div>

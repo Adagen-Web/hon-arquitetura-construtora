@@ -6,7 +6,7 @@ const ContactPage = () => {
     <section className="container mx-auto items-center justify-center py-16 sm:px-4 px-8">
       {/* Texto principal no topo */}
       <div className="mb-10">
-        <h2 className="text-xl sm:text-xl text-[#050505] md:text-2xl lg:text-4xl font-yantramanav font-extralight text-primary leading-[1] text-left">
+        <h2 className="text-2xl sm:text-1xl text-[#050505] md:text-2xl lg:text-4xl font-yantramanav font-extralight text-primary leading-[1] text-left">
           Faça seu projeto<br /> dos sonhos conosco!
         </h2>
       </div>

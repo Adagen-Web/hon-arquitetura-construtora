@@ -16,15 +16,21 @@ import CasaRivaImage from "../assets/casa-riva.webp";
 export const projectsDataPortfolio = [
   {
     id: 1,
-    name: "Casa Riva Del Mare",
-    slug: "casa-riva-del-mare",
-    image: CasaRivaImage,
+    name: "Casa Rio",
+    slug: "casa-rio",
+    image: CasaRioImage,
   },
   {
     id: 2,
     name: "Casa C10",
     slug: "casa-c10",
     image: CasaC10Image,
+  },
+  {
+    id: 11,
+    name: "Casa Riva Del Mare",
+    slug: "casa-riva-del-mare",
+    image: CasaRivaImage,
   },
   {
     id: 3,
@@ -73,12 +79,6 @@ export const projectsDataPortfolio = [
     name: "Casa Giovanella",
     slug: "casa-giovanella",
     image: CasaGiovanellaImage,
-  },
-  {
-    id: 11,
-    name: "Casa Rio",
-    slug: "casa-rio",
-    image: CasaRioImage,
   },
   {
     id: 12,

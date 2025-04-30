@@ -23,7 +23,7 @@ const ProjectDetail = () => {
         {/* Informações do Projeto */}
         <div className="items-center grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 mr-4">
           <div className="ml-20">
-            <h1 className="text-4xl font-bold text-[#313131]">{project.name}</h1>
+            <h1 className="text-2xl font-bold text-[#313131]">{project.name}</h1>
             <p className="text-lg text-[#313131] mt-4">
               <strong>Ano:</strong> {project.year}
             </p>

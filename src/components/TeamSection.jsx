@@ -41,14 +41,14 @@ const TeamSection = () => {
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className={`flex flex-col items-center ${index === 0 ? "ml-0" : index === teamMembers.length - 1 ? "mr-0" : "px-4"
+            className={`group flex flex-col items-center ${index === 0 ? "ml-0" : index === teamMembers.length - 1 ? "mr-0" : "px-4"
               }`}
           >
-            {/* Imagem */}
+            {/* Imagem com grayscale e hover effect */}
             <img
               src={member.image}
               alt={member.name}
-              className="w-full h-80 object-cover object-top"
+              className="w-full h-80 object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-300"
             />
 
             {/* Nome */}
