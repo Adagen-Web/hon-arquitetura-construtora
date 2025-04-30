@@ -94,8 +94,8 @@ const projectsData = [
     year: 2021,
     size: 360,
     location: "Torres - RS",
-    image: CasaBellaImage, // Imagem principal
-    secondaryImage: CasaBellaImage1, // Imagem lateral
+    image: CasaBellaImage5, // Imagem principal
+    secondaryImage: CasaBellaImage5, // Imagem lateral
     gallery: [
       CasaBellaImage1,
       CasaBellaImage3,

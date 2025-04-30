@@ -12,11 +12,17 @@ const ProjectCard = ({ projects, limit, isPortfolioHome }) => {
           to={`/portfolio/${project.slug}`}
           className="relative group overflow-hidden"
         >
-          {/* Imagem com efeito preto e branco */}
+          {/* Imagem com grayscale sutil e transição suave */}
           <img
             src={project.image}
             alt={`Projeto ${project.name}`}
-            className="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110 grayscale group-hover:grayscale-0"
+            className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-110"
+            style={{
+              filter: "grayscale(55%)",
+              transition: "filter 0.6s ease-in-out, transform 0.6s ease-in-out",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.filter = "grayscale(0%)")}
+            onMouseLeave={(e) => (e.currentTarget.style.filter = "grayscale(50%)")}
           />
 
           {/* Sobreposição escura */}
@@ -31,7 +37,7 @@ const ProjectCard = ({ projects, limit, isPortfolioHome }) => {
 
             {/* Nome + ícone visíveis só no hover no desktop */}
             <div className="hidden sm:flex flex-col items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <h3 className="text-lg font-semibold text-center">{project.name}</h3>
+              <h3 className="text-lg font-semibold text-white text-center">{project.name}</h3>
               <FiArrowUpRight className="text-2xl mt-2" />
             </div>
           </div>

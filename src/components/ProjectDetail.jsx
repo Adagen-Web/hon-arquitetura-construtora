@@ -1,77 +1,85 @@
 import { Link, useParams } from "react-router-dom";
-import projectsData from "../data/projectsData"; // Dados dos projetos
+import projectsData from "../data/projectsData";
 
 const ProjectDetail = () => {
-  const { slug } = useParams(); // Pegamos o slug da URL
-  const projectIndex = projectsData.findIndex((p) => p.slug === slug); // Encontramos o index
-  const project = projectsData[projectIndex]; // Pegamos o projeto correto
+  const { slug } = useParams();
+  const projectIndex = projectsData.findIndex((p) => p.slug === slug);
+  const project = projectsData[projectIndex];
 
   if (!project) {
-    return <h2 className="text-center mt-10 text-2xl">Projeto não encontrado!</h2>;
+    return <h2 className="text-center mt-20 text-2xl text-gray-600">Projeto não encontrado.</h2>;
   }
 
-  // Pegando projetos anterior e próximo
   const prevProject = projectIndex > 0 ? projectsData[projectIndex - 1] : null;
   const nextProject = projectIndex < projectsData.length - 1 ? projectsData[projectIndex + 1] : null;
 
   return (
-    <div className="">
-      {/* Imagem de destaque */}
-      <img src={project.image} alt={project.name} className="w-full h-[1000px] object-cover object-center" />
-      {/* <div className="container mx-auto px-6 py-16"> */}
+    <div className="bg-white text-[#313131]">
+      {/* Imagem destaque */}
+      <img
+        src={project.image}
+        alt={project.name}
+        className="w-full h-[500px] object-cover object-center"
+      />
 
-        {/* Informações do Projeto */}
-        <div className="items-center grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 mr-4">
-          <div className="ml-20">
-            <h1 className="text-2xl font-bold text-[#313131]">{project.name}</h1>
-            <p className="text-lg text-[#313131] mt-4">
-              <strong>Ano:</strong> {project.year}
-            </p>
-            <p className="text-lg text-[#313131] mt-2">
-              <strong>Tamanho:</strong> {project.size}m²
-            </p>
-            <p className="text-lg text-[#313131] mt-2">
-              <strong>Localização:</strong> {project.location}
-            </p>
-          </div>
-          <div>
-            <img src={project.secondaryImage} alt={project.name} className="w-full h-[400px] object-cover object-center" />
-          </div>
+      {/* Informações principais */}
+      <div className="container mx-auto px-6 sm:px-16 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        {/* Texto */}
+        <div>
+          <h1 className="text-2xl sm:text-4xl font-yantramanav font-light mb-6">
+            {project.name}
+          </h1>
+          <ul className="space-y-3 text-lg sm:text-xl font-light">
+            <li><strong className="font-semibold">Ano:</strong> {project.year}</li>
+            <li><strong className="font-semibold">Tamanho:</strong> {project.size}m²</li>
+            <li><strong className="font-semibold">Localização:</strong> {project.location}</li>
+          </ul>
         </div>
 
-        {/* Galeria de Imagens */}
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 mr-4 ml-4 mt-12">
+        {/* Imagem secundária */}
+        <div>
+          <img
+            src={project.secondaryImage}
+            alt={project.name}
+            className="w-full h-[400px] object-cover object-center rounded-md"
+          />
+        </div>
+      </div>
+
+      {/* Galeria de imagens */}
+      <div className="container mx-auto px-6 sm:px-16 pb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {project.gallery.map((image, index) => (
             <img
               key={index}
               src={image}
               alt={`Gallery ${index}`}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover rounded"
             />
           ))}
         </div>
+      </div>
 
-        {/* Navegação entre Projetos */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 my-8 sm:my-16 px-6 sm:px-16">
-          {prevProject ? (
-            <Link
-              to={`/portfolio/${prevProject.slug}`}
-              className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105 w-full sm:w-auto text-left sm:text-center"
-            >
-              ← {prevProject.name}
-            </Link>
-          ) : <div className="hidden sm:block" />} {/* Evita espaçamento extra no mobile */}
+      {/* Navegação entre projetos */}
+      <div className="container mx-auto px-6 sm:px-16 pb-16 flex justify-between items-center gap-4">
+        {prevProject ? (
+          <Link
+            to={`/portfolio/${prevProject.slug}`}
+            className="text-black text-base sm:text-lg hover:underline"
+          >
+            ← {prevProject.name}
+          </Link>
+        ) : <div />}
 
-          {nextProject ? (
-            <Link
-              to={`/portfolio/${nextProject.slug}`}
-              className="bg-black text-white px-6 py-3 text-lg font-medium uppercase tracking-wide transition-transform transform hover:scale-105 w-full sm:w-auto text-right sm:text-center"
-            >
-              {nextProject.name} →
-            </Link>
-          ) : <div className="hidden sm:block" />} {/* Evita espaçamento extra no mobile */}
-        </div>
-      {/* </div> */}
+        {nextProject ? (
+          <Link
+            to={`/portfolio/${nextProject.slug}`}
+            className="text-black text-base sm:text-lg hover:underline ml-auto"
+          >
+            {nextProject.name} →
+          </Link>
+        ) : <div />}
+      </div>
     </div>
   );
 };
