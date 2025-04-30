@@ -5,12 +5,12 @@ import Footer from "./components/Footer";
 import ContactSection from "./components/ContactSection";
 import WhatsAppButton from "./components/WhatsAppButton";
 import ContactPage from "./pages/ContactPage";
-import MapSection from "./components/MapSection";
 import AboutPage from "./pages/AboutPage";
 import PortfolioPage, { projectsDataPortfolio } from "./pages/PortfolioPage";
 import ProjectDetail from "./components/ProjectDetail";
 import ProjectCard from "./components/ProjectCard";
 import NotFoundPage from "./pages/NotFoundPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 function Layout() {
   const location = useLocation(); // Obtém a rota atual
@@ -32,6 +32,7 @@ function Layout() {
       {/* {location.pathname === "/contato" && <MapSection />} */}
       <Footer />
       <WhatsAppButton />
+      <ScrollToTop />
     </>
   );
 }
