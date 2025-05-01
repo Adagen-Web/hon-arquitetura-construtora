@@ -13,7 +13,8 @@ import CasaGiovanellaImage from "../assets/casa-giovanella.webp";
 import CasaRioImage from "../assets/casa-rio-01.webp";
 import CasaRivaImage from "../assets/casa-riva.webp";
 import CasaD02 from "../assets/casa-d02.jpg";
-import CasaVarandas from "../assets/varandas.jpg"; 
+import CasaPescador from "../assets/pescador.jpg";
+import CasaVarandas from "../assets/varandas.jpg";
 import CasaLaVista from "../assets/lavista.jpg";
 import CasaPontal from "../assets/pontal.jpg"; 
 
@@ -56,60 +57,66 @@ export const projectsDataPortfolio = [
   },
   {
     id: 7,
+    name: "Pescador Residencial",
+    slug: "pescador-residencial",
+    image: CasaPescador,
+  },
+  {
+    id: 8,
     name: "Casa Ocean",
     slug: "casa-ocean",
     image: CasaOceanImage,
   },
   {
-    id: 8,
+    id: 9,
     name: "Casa Del Faro",
     slug: "casa-del-faro",
     image: CasaFaroImage,
   },
   {
-    id: 9,
+    id: 10,
     name: "Casa L46",
     slug: "casa-l46",
     image: CasaL46Image,
   },
   {
-    id: 10,
+    id: 11,
     name: "Casa Geo 01",
     slug: "casa-geo",
     image: CasaGeoImage,
   },
   {
-    id: 11,
+    id: 12,
     name: "La Vista",
     slug: "la-vista",
     image: CasaLaVista,
   },
   {
-    id: 12,
+    id: 13,
     name: "Pontal 2317",
     slug: "pontal",
     image: CasaPontal,
   },
   {
-    id: 13,
+    id: 14,
     name: "Casa Giovanella",
     slug: "casa-giovanella",
     image: CasaGiovanellaImage,
   },
   {
-    id: 14,
+    id: 15,
     name: "Casa Tonello",
     slug: "casa-tonello",
     image: CasaTonelloImage,
   },
   {
-    id: 15,
+    id: 16,
     name: "Casa Toigo",
     slug: "casa-toigo",
     image: CasaToigoImage,
   },
   {
-    id: 16,
+    id: 17,
     name: "Casa J10",
     slug: "casa-j10",
     image: CasaJ10Image,

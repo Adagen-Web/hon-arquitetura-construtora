@@ -105,22 +105,29 @@ import pontal7 from "../assets/pontal7.jpg";
 import pontal8 from "../assets/pontal8.jpg";
 import pontal9 from "../assets/pontal9.jpg";
 
-import varandas from "../assets/varandas.jpg";
-import varandas1 from "../assets/varandas1.jpg";
-import varandas2 from "../assets/varandas2.jpg";
-import varandas3 from "../assets/varandas3.jpg";
-import varandas4 from "../assets/varandas4.jpg";
-import varandas5 from "../assets/varandas5.jpg";
-import varandas6 from "../assets/varandas6.jpg";
-import varandas7 from "../assets/varandas7.jpg";
-import varandas8 from "../assets/varandas8.jpg";
-import varandas9 from "../assets/varandas9.jpg";
+import pescador from "../assets/pescador.jpg";
+import pescador1 from "../assets/pescador1.jpg";
+import pescador2 from "../assets/pescador2.jpg";
+import pescador3 from "../assets/pescador3.jpg";
+import pescador4 from "../assets/pescador4.jpg";
+import pescador5 from "../assets/pescador5.jpg";
+import pescador6 from "../assets/pescador6.jpg";
+import pescador7 from "../assets/pescador7.jpg";
+import pescador8 from "../assets/pescador8.jpg";
+import pescador9 from "../assets/pescador9.jpg";
 
 import casad02 from "../assets/casa-d02.jpg";
 import casad021 from "../assets/casa-d02-1.jpg";
 import casad022 from "../assets/casa-d02-2.jpg";
 import casad023 from "../assets/casa-d02-3.jpg";
 import casad024 from "../assets/casa-d02-4.jpg";
+
+import varandas from "../assets/varandas.jpg";
+import varandas1 from "../assets/varandas-1.jpg";
+import varandas2 from "../assets/varandas-2.jpg";
+import varandas3 from "../assets/varandas-3.jpg";
+import varandas4 from "../assets/varandas-4.jpg";
+import varandas5 from "../assets/varandas-5.jpg";
 
 const projectsData = [
   {
@@ -366,6 +373,26 @@ const projectsData = [
   },
   {
     id: 1,
+    slug: "pescador-residencial",
+    name: "Pescador Residencial",
+    year: 2024,
+    size: 2819.39,
+    location: "Torres - RS",
+    image: pescador,
+    secondaryImage: pescador1,
+    gallery: [
+      pescador3,
+      pescador4,
+      pescador7,
+      pescador8,
+      pescador9,
+      pescador5,
+      pescador6,
+      pescador2,
+    ]
+  },
+  {
+    id: 17,
     slug: "varandas",
     name: "Varandas",
     year: 2024,
@@ -374,14 +401,12 @@ const projectsData = [
     image: varandas,
     secondaryImage: varandas1,
     gallery: [
+      varandas,
+      varandas1,
+      varandas2,
       varandas3,
       varandas4,
-      varandas7,
-      varandas8,
-      varandas9,
       varandas5,
-      varandas6,
-      varandas2,
     ]
   },
   {

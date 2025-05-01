@@ -34,7 +34,7 @@ const ProjectDetail = () => {
           <h1 className="text-2xl sm:text-4xl font-yantramanav font-light mb-6">
             {project.name}
           </h1>
-          <ul className="space-y-3 text-lg sm:text-xl font-light">
+          <ul className="space-y-1 text-md sm:text-lg font-light">
             <li><strong className="font-semibold">Ano:</strong> {project.year}</li>
             <li><strong className="font-semibold">Tamanho:</strong> {project.size}m²</li>
             <li><strong className="font-semibold">Localização:</strong> {project.location}</li>

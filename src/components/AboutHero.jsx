@@ -9,7 +9,7 @@ const AboutHero = ({ image }) => {
           {/* <h2 className="text-1xl sm:text-xl font-yantramanav font-extralight text-[#000000] leading-tight tracking-[-1px]">
             SOMOS HON!
           </h2> */}
-          <h2 className="text-2xl sm:text-3xl font-yantramanav font-extralight text-[#000000] leading-tight tracking-[-1px] mt-2">
+          <h2 className="text-2xl sm:text-4xl font-yantramanav font-extralight text-[#000000] leading-tight tracking-[-1px] mt-2">
             Somos especialistas em <br />
             transformar espaços <br />
             em histórias vivas.

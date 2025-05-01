@@ -34,7 +34,7 @@ const teamMembers = [
 const TeamSection = () => {
   return (
     <section className="w-full py-16 text-center bg-white">
-      <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 mb-12">
+      <h2 className="text-2xl sm:text-3xl font-normal text-gray-800 mb-12">
         NOSSA EQUIPE
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-6 sm:gap-0 w-full">
@@ -52,15 +52,15 @@ const TeamSection = () => {
             />
 
             {/* Nome */}
-            <h3 className="text-lg font-semibold text-gray-800 mt-4">
+            <h3 className="text-lg font-semibold text-[#313131] mt-4">
               {member.name}
             </h3>
 
             {/* Cargo */}
-            <p className="text-sm text-gray-600">{member.role}</p>
+            <p className="text-sm text-[#313131]">{member.role}</p>
 
             {/* Profissão */}
-            <p className="text-sm text-gray-600">{member.profession}</p>
+            <p className="text-sm text-[#313131]">{member.profession}</p>
           </div>
         ))}
       </div>
