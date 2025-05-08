@@ -13,7 +13,7 @@ const Header = () => {
           SOMOS
         </h2>
         <h1 className="text-2xl sm:text-5xl font-yantramanav font-light text-primary leading-[1.1]">
-          aqueles que visam <br /> atingir seus ideais
+          arquitetura com identidade.
         </h1>
 
         {/* Botão alinhado corretamente */}

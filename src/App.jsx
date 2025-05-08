@@ -23,8 +23,8 @@ function Layout() {
       <Routes>
         <Route path="/" element={<ProjectCard projects={projectsDataPortfolio} isPortfolioHome />} />
         <Route path="/sobre" element={<AboutPage />} />
-        <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/portfolio/:slug" element={<ProjectDetail />} />
+        <Route path="/projetos" element={<PortfolioPage />} />
+        <Route path="/projeto/:slug" element={<ProjectDetail />} />
         <Route path="/contato" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} /> {/* Página 404 */}
       </Routes>

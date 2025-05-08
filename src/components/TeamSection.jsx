@@ -6,13 +6,13 @@ const teamMembers = [
     image: "/northon.jpg",
   },
   {
-    name: "DIEGO SCHUASTE MAGNUS",
+    name: "DIEGO SCHUASTE",
     role: "Sócio & Coordenador de Projetos e Administrativo",
     profession: "Arquiteto e Urbanista",
     image: "/diego.jpg",
   },
   {
-    name: "BRENDA DA SILVA EUGÊNIO",
+    name: "BRENDA EUGÊNIO",
     role: "Associada & Coordenadora de Interiores",
     profession: "Arquiteta e Urbanista",
     image: "/brenda.jpg",
@@ -24,7 +24,7 @@ const teamMembers = [
     image: "/catiele.jpg",
   },
   {
-    name: "LUIZ FERNANDO TRISTÃO",
+    name: "FERNANDO SCHEFFER",
     role: "Coordenador de Processos Legais",
     profession: "Arquiteto e Urbanista",
     image: "/luiz.jpg",
@@ -33,7 +33,7 @@ const teamMembers = [
 
 const TeamSection = () => {
   return (
-    <section className="w-full py-16 text-center bg-white">
+    <section className="w-full py-8 text-center bg-white">
       <h2 className="text-2xl sm:text-3xl font-normal text-gray-800 mb-12">
         NOSSA EQUIPE
       </h2>

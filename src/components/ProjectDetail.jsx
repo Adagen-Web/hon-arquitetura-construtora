@@ -86,7 +86,7 @@ const ProjectDetail = () => {
       <div className="container mx-auto px-6 sm:px-16 pb-16 flex justify-between items-center gap-4">
         {prevProject ? (
           <Link
-            to={`/portfolio/${prevProject.slug}`}
+            to={`/projeto/${prevProject.slug}`}
             className="text-black text-base sm:text-lg hover:underline"
           >
             ← {prevProject.name}
@@ -95,7 +95,7 @@ const ProjectDetail = () => {
 
         {nextProject ? (
           <Link
-            to={`/portfolio/${nextProject.slug}`}
+            to={`/projeto/${nextProject.slug}`}
             className="text-black text-base sm:text-lg hover:underline ml-auto"
           >
             {nextProject.name} →

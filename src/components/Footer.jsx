@@ -28,7 +28,7 @@ const Footer = () => {
         {/* Direita - Endereço e Redes Sociais */}
         <div className="flex flex-col items-center sm:items-end space-y-4">
           <div className="text-center sm:text-right">
-            <p>Avenida Silva Jardim 1541 Predial | Torres - RS</p>
+            <p>Avenida Silva Jardim, 1541 Predial | Torres - RS</p>
             {/* <p>Rua do Tubarão 845 Bellatorres | Passo de Torres - SC</p> */}
           </div>
 

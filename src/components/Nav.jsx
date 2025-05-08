@@ -29,7 +29,7 @@ const Nav = () => {
           <ul className="flex space-x-8">
             <li><Link to="/" className="text-black font-semibold hover:text-secondary">home</Link></li>
             <li><Link to="/sobre" className="text-black font-semibold hover:text-secondary">sobre</Link></li>
-            <li><Link to="/portfolio" className="text-black font-semibold hover:text-secondary">portfólio</Link></li>
+            <li><Link to="/projetos" className="text-black font-semibold hover:text-secondary">projetos</Link></li>
             <li><Link to="/contato" className="text-black font-semibold hover:text-secondary">contato</Link></li>
           </ul>
         </nav>
@@ -41,7 +41,7 @@ const Nav = () => {
           <ul className="flex flex-col space-y-4 px-6">
             <li><Link to="/" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>home</Link></li>
             <li><Link to="/sobre" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>sobre</Link></li>
-            <li><Link to="/portfolio" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>portfólio</Link></li>
+            <li><Link to="/projetos" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>projetos</Link></li>
             <li><Link to="/contato" className="hover:text-gray-400" onClick={() => setIsOpen(false)}>contato</Link></li>
           </ul>
         </nav>
